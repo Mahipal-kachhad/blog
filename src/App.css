@@ -44,3 +44,6 @@
   top: 50%;
   transform: translateY(-50%);
 }
+.nav-icons{
+  font-size: 20px;
+}
