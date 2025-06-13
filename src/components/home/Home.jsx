@@ -4,6 +4,7 @@ const Home = () => {
   return (
     <div>
       <Hero/>
+      <div className="footer-view"></div>
     </div>
   );
 };

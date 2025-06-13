@@ -1,15 +1,15 @@
 :root {
   --black: #000000;
   --cpink: #e1b493;
-  --dpink: #e1b793;
 }
 
 /* Menubar */
 
 .menubar {
-  height: 80px;
+  height: 90px;
   align-items: center;
   justify-content: space-between;
+  background-color: #FCFCFC;
 }
 .menu-items {
   display: flex;
@@ -21,6 +21,7 @@
   height: 100%;
 }
 .menu-items li a {
+  font-family: roboto;
   color: #000000;
   text-decoration: none;
   font-weight: 500;
@@ -50,13 +51,50 @@
 
 /* home */
 /* hero */
+.hero{
+  background-image: url('./images/heroBackground.jpg');
+  object-fit: cover;
+  height: 100vh;
+  background-position: center;
+}
+.video-bac{
+  z-index: -1;
+  position: absolute;
+}
 .title-bac {
   margin: auto;
   width: 70%;
+  z-index: 2;
 }
 .htitle {
   font-family: "Fraunces", serif;
   font-size: 142px;
   font-variation-settings: "wght" 400, "SOFT" 100, "WONK" 0, "opsz" 144;
   color: var(--cpink);
+}
+.hero-buy{
+  padding: 10px 40px;
+  border: none;
+  color:black;
+  background-color: var(--cpink);
+  box-shadow: 3px 3px rgba(0, 0, 0, 0.425);
+}
+
+
+/* footer */
+.footer{
+  padding: 30px 0;
+  height: 100vh;
+  position: fixed;
+  width: 100vw;
+  top: 0;
+  z-index: -2;
+}
+.footer-view{
+  height: 100vh;
+}
+.r-footer a{
+  color: black;
+  text-decoration: none;
+  display: block;
 }
