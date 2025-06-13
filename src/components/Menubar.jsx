@@ -9,7 +9,7 @@ import { useState } from "react";
 const Menubar = () => {
   const [search, setSearch] = useState("");
   return (
-    <div className="d-flex mx-5 menubar">
+    <div className="d-flex px-5 menubar border border-1 border-black">
       <div>
         <img src={logo} alt="logo" />
       </div>
