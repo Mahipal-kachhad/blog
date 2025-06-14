@@ -1,13 +1,14 @@
 import { Col, Container, Row } from "react-bootstrap";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
     <div className="footer">
       <Container>
-        <Row className="r-footer">
+        <Row className="r-footer mb-5 pb-5">
           <Col className="col-12 col-md-6 col-lg-3">
             <h3>Contact us</h3>
-            <p>Envato Level 13, 2 Elizabeth Victoria 3000 Australia</p>
+            <p>Envato <br /> Level 13, 2 Elizabeth <br /> Victoria 3000 <br /> Australia</p>
           </Col>
           <Col className="col-12 col-md-6 col-lg-3">
             <h3>Shortcut links</h3>
@@ -33,6 +34,9 @@ const Footer = () => {
             <a href="#">lost Password</a>
           </Col>
         </Row>
+        <div>
+          <p>© 2025 Mahipal Kachhad</p>
+        </div>
       </Container>
     </div>
   );
